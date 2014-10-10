@@ -1,7 +1,7 @@
 Assignment
 
 What is the DOM and what purpose does it serve?
-domain object M - helps track objects
+domain object Model - helps track objects
 
 What types are the following variables?
 
