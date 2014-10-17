@@ -4,5 +4,5 @@
 4. $("h2")
 5. $(".subMenuLink.sports.hdn-analytics").html("sports hour")
 6. $("#nav-signin-title").html("Yo User")
-7. $
+7. $$(".post-title").html("Fuckyea")
 
