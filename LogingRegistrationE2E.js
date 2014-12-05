@@ -8,7 +8,7 @@ casper.test.begin('Login and Registration End to End Test', function suite(test)
         test.assertTitle('Affordable Legal Services, Free Legal Documents, Advice & Ask a Lawyer | Rocket Lawyer', 'Title is correct');
     });
 
- casper.thenClick(".rlHeaderTopRightLink[href='/login-register.rl#/register?hd=navreg']", function () {
+casper.thenClick(".rlHeaderTopRightLink[href='/login-register.rl#/register?hd=navreg']", function () {
   this.echo("\nThis clicks the Sign Up link in the homepage nav \n", "COMMENT");
 });
 
