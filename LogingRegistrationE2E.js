@@ -9,7 +9,7 @@ casper.test.begin('Login and Registration End to End Test', function suite(test)
     });
 
  casper.thenClick(".rlHeaderTopRightLink[href='/login-register.rl#/register?hd=navreg']", function () {
-  this.echo("\nGoing to the registration page \n", "COMMENT");
+  this.echo("\nThis clicks the Sign Up link in the homepage nav \n", "COMMENT");
 });
 
     casper.run(function() {
